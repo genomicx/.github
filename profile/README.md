@@ -15,6 +15,7 @@ We compile established, peer-reviewed bioinformatics tools into WebAssembly so t
 | **[BRIGx](https://github.com/genomicx/brigx)** | Circular genome comparison plots | [Launch](https://brigx-eight.vercel.app) |
 | **[MLSTx](https://github.com/genomicx/mlstx)** | Multi-locus sequence typing in the browser | [Launch](https://mlstx.vercel.app) |
 | **[MashtreeWebx](https://github.com/genomicx/mashtreewebx)** | Rapid distance trees from genome assemblies | [Launch](https://mashtreewebx.vercel.app) |
+| **[RonaQC](https://github.com/genomicx/ronaQC)** | SARS-CoV-2 sequencing QC from BAM files | [Launch](https://rona-qc.vercel.app) |
 
 ---
 
