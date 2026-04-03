@@ -12,7 +12,7 @@ Each tool is a proof of concept testing a different class of genomic analysis: p
 
 | Tool | What it tests | Demo |
 |------|--------------|------|
-| **[BRIGx](https://github.com/genomicx/brigx)** | Pairwise genome alignment (LASTZ) with Web Workers | [Try it](https://brigx-eight.vercel.app) |
+| **[BRIGx](https://github.com/genomicx/brigx)** | Pairwise genome alignment (LASTZ) with Web Workers | [Try it](https://brigx.genomicx.org) |
 | **[MLSTx](https://github.com/genomicx/mlstx)** | minimap2 in-browser for MLST sequence typing | [Try it](https://mlstx.vercel.app) |
 | **[MashtreeWebx](https://github.com/genomicx/mashtreewebx)** | Mash sketch distances compiled to WASM | [Try it](https://mashtreewebx.vercel.app) |
 | **[RonaQC](https://github.com/genomicx/ronaQC)** | Full QC pipeline (samtools + ivar) client-side on BAMs | [Try it](https://rona-qc.vercel.app) |
@@ -23,8 +23,9 @@ Each tool is a proof of concept testing a different class of genomic analysis: p
 | **[SNP-Sitesx](https://github.com/happykhan/snp-sitesx)** | SNP site extraction with VCF/Phylip export | [Try it](https://snp-sitesx.vercel.app) |
 | **[ScagaireX](https://github.com/happykhan/scagairex)** | Species-specific AMR gene filtering | [Try it](https://scagairex.vercel.app) |
 | **[madansix](https://github.com/happykhan/madansix)** | Pan-genome guided contig scaffolding | [Try it](https://madansix.vercel.app) |
+| **[MashX](https://github.com/genomicx/mashx)** | Mash distance species ID and metagenomics screening | [Try it](https://mashx.genomicx.org) |
 | **Specx** | Species identification and assembly QC | *In progress* |
-| **Genetrax** | AMR and virulence gene detection | *In progress* |
+| **[Genetrax](https://github.com/genomicx/genetrax)** | AMR and virulence gene detection | *In development* |
 | **pMLSTx** | Plasmid replicon typing via pMLST | *In progress* |
 | **Impressx** | EMBOSS sequence analysis utilities | *In progress* |
 | **Consensusx** | Consensus sequence generation from reads | *In progress* |
@@ -41,7 +42,7 @@ Each tool is a proof of concept testing a different class of genomic analysis: p
 
 ### Contributing
 
-Bug reports, pull requests, and suggestions for tools to port are welcome. If you have a favourite command-line bioinformatics tool you'd like to see in the browser, [open an issue](https://github.com/genomicx/genomicx.github.io/issues).
+Bug reports, pull requests, and suggestions for tools to port are welcome. If you have a favourite command-line bioinformatics tool you would like to see in the browser, [open an issue](https://github.com/genomicx/genomicx.github.io/issues).
 
 ---
 
