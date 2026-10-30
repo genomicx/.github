@@ -1,51 +1,51 @@
 # GenomicX
 
-**Can bioinformatics run in the browser?**
+GenomicX develops open-source bioinformatics tools that run in your browser. Sequence analysis runs locally on your device, using WebAssembly and JavaScript. Applications download software and reference databases as needed.
 
-GenomicX is an open-source experiment in compiling established bioinformatics tools to WebAssembly and running them entirely client-side. No servers, no uploads — just the browser.
+Browse the [tool catalogue](https://genomicx.org/#tools) or open an application below.
 
-Each tool is a proof of concept testing a different class of genomic analysis: pairwise alignment, sequence typing, distance estimation, scaffolding, and more. The goal is to understand where browser-based execution works well and where it falls short.
+## Genomics applications
 
----
+| Application | What it does | Open |
+|-------------|--------------|------|
+| [BRIGX](https://github.com/genomicx/brigx) | BLAST-based circular genome comparisons | [Launch](https://brigx.genomicx.org) |
+| [MLSTX](https://github.com/genomicx/mlstx) | MLST allele calling with BLAST; scheme detection with minimap2 | [Launch](https://mlstx.genomicx.org) |
+| [MashtreeWebX](https://github.com/genomicx/mashtreewebx) | Mash distances and neighbour-joining trees from genome assemblies | [Launch](https://mashtreex.genomicx.org) |
+| [RonaQC](https://github.com/genomicx/ronaQC) | SARS-CoV-2 sequencing quality control from mapped reads | [Launch](https://ronaqc.genomicx.org) |
+| [SocruX](https://github.com/genomicx/socrux) | Genome structural typing using rRNA operon arrangements | [Launch](https://socrux.genomicx.org) |
+| [BarrnapX](https://github.com/genomicx/barrnapx) | rRNA, tRNA and ncRNA annotation | [Launch](https://barrnapx.genomicx.org) |
+| [assembly-statsx](https://github.com/genomicx/assembly-statsx) | Assembly statistics, including N50 and GC content | [Launch](https://assembly-statsx.genomicx.org) |
+| [snp-distsx](https://github.com/genomicx/snp-distsx) | Pairwise SNP distance matrices from alignments | [Launch](https://snp-distsx.genomicx.org) |
+| [SNP-SitesX](https://github.com/genomicx/snp-sitesx) | SNP site extraction and VCF/Phylip export | [Launch](https://snp-sitesx.genomicx.org) |
+| [ScagaireX](https://github.com/genomicx/scagairex) | Species-specific AMR gene filtering | [Launch](https://scagairex.genomicx.org) |
+| [MadansiX](https://github.com/genomicx/madansix) | Contig scaffolding using pan-genome gene synteny | [Launch](https://madansix.genomicx.org) |
+| [MashX](https://github.com/genomicx/mashx) | Mash-based species identification and metagenomic screening | [Launch](https://mashx.genomicx.org) |
+| [GeneTrax](https://github.com/genomicx/genetrax) | BLAST-based screening for AMR, virulence and plasmid markers | [Launch](https://genetrax.genomicx.org) |
+| [ConsensusX](https://github.com/genomicx/consensusx) | Read mapping, reference consensus and assembly of unmapped reads | [Launch](https://consensusx.genomicx.org) |
+| [TipToftX](https://github.com/genomicx/tiptoftx) | Plasmid replicon detection from long reads | [Launch](https://tiptoftx.genomicx.org) |
+| [GrapeTree](https://github.com/achtman-lab/GrapeTree) | Allele-profile tree construction and interactive tree/metadata visualisation | [Launch browser/WASM app](https://grapetree.genomicx.org/browser-wasm/) |
 
-### Tools
+These links identify deployed applications. Benchmark coverage and known limitations vary by tool; consult each repository before interpreting results. Deployment is separate from scientific validation.
 
-| Tool | What it tests | Demo |
-|------|--------------|------|
-| **[BRIGx](https://github.com/genomicx/brigx)** | Pairwise genome alignment (LASTZ) with Web Workers | [Try it](https://brigx.genomicx.org) |
-| **[MLSTx](https://github.com/genomicx/mlstx)** | minimap2 in-browser for MLST sequence typing | [Try it](https://mlstx.vercel.app) |
-| **[MashtreeWebx](https://github.com/genomicx/mashtreewebx)** | Mash sketch distances compiled to WASM | [Try it](https://mashtreewebx.vercel.app) |
-| **[RonaQC](https://github.com/genomicx/ronaQC)** | Full QC pipeline (samtools + ivar) client-side on BAMs | [Try it](https://rona-qc.vercel.app) |
-| **[Socrux](https://github.com/genomicx/socrux)** | Genome structural typing via rRNA operon mapping | [Try it](https://socrux.vercel.app) |
-| **[Barrnapx](https://github.com/genomicx/barrnapx)** | rRNA/tRNA/ncRNA annotation in-browser | [Try it](https://barrnapx.vercel.app) |
-| **[assembly-statsx](https://github.com/happykhan/assembly-statsx)** | N50, GC content, and assembly QC metrics | [Try it](https://assembly-statsx.vercel.app) |
-| **[snp-distsx](https://github.com/happykhan/snp-distsx)** | Pairwise SNP distance matrices from alignments | [Try it](https://snp-distsx.vercel.app) |
-| **[SNP-Sitesx](https://github.com/happykhan/snp-sitesx)** | SNP site extraction with VCF/Phylip export | [Try it](https://snp-sitesx.vercel.app) |
-| **[ScagaireX](https://github.com/happykhan/scagairex)** | Species-specific AMR gene filtering | [Try it](https://scagairex.vercel.app) |
-| **[madansix](https://github.com/happykhan/madansix)** | Pan-genome guided contig scaffolding | [Try it](https://madansix.vercel.app) |
-| **[MashX](https://github.com/genomicx/mashx)** | Mash distance species ID and metagenomics screening | [Try it](https://mashx.genomicx.org) |
-| **Specx** | Species identification and assembly QC | *In progress* |
-| **[Genetrax](https://github.com/genomicx/genetrax)** | AMR and virulence gene detection | *In development* |
-| **pMLSTx** | Plasmid replicon typing via pMLST | *In progress* |
-| **Impressx** | EMBOSS sequence analysis utilities | *In progress* |
-| **Consensusx** | Consensus sequence generation from reads | *In progress* |
+## Lab and conference utilities
 
----
+| Application | What it does | Open |
+|-------------|--------------|------|
+| [BarcodeX](https://github.com/genomicx/barcodex) | Barcode generation and printable labels | [Launch](https://barcodex.genomicx.org) |
+| [Conference Bingo](https://github.com/genomicx/conferencebingo) | Conference bingo card generation | [Launch](https://conferencebingo.genomicx.org) |
 
-### Design decisions
+## Planned tools
 
-- **Client-side only.** All data stays on your machine. Nothing is uploaded or transmitted.
-- **Open source.** All code is public. Reproducibility requires openness.
-- **Reuse established tools.** We cross-compile proven C/C++ tools to WebAssembly — the science is unchanged, only the delivery is new.
+SpecX (species identification and assembly QC), pMLSTX (plasmid MLST typing) and ImpressX (EMBOSS sequence utilities) remain planned projects without public application links.
 
----
+## Development
 
-### Contributing
+Many tools compile established command-line software to WebAssembly; others reimplement workflows in JavaScript or TypeScript. Compatibility must be tested for each implementation rather than assumed from the original program.
 
-Bug reports, pull requests, and suggestions for tools to port are welcome. If you have a favourite command-line bioinformatics tool you would like to see in the browser, [open an issue](https://github.com/genomicx/genomicx.github.io/issues).
+[`@genomicx/ui`](https://github.com/genomicx/ui) provides shared components and light/dark styling for GenomicX applications. GrapeTree retains its own interface. Applications are hosted on Cloudflare under `*.genomicx.org`.
 
----
+Bug reports and contributions are welcome in the relevant repository. For catalogue changes or suggestions for new tools, [open a website issue](https://github.com/genomicx/genomicx.github.io/issues).
 
-**Website:** [genomicx.github.io](https://genomicx.github.io)
+Website: [genomicx.org](https://genomicx.org)
 
-Built by [Nabil-Fareed Alikhan](https://www.happykhan.com/) and contributors.
+Built by [Nabil-Fareed Alikhan](https://www.happykhan.com/) and contributors, using software and databases credited in each project.
